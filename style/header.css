@@ -48,4 +48,18 @@ button a{
   .menu2{
     display: none;
   }
+  .btn {
+    width: 116px;
+    height: 40px;
+  }
+  .contender{
+    max-width: calc(100% - 48px);
+  }
+  .menu{
+    padding-block: 1rem;
+  }
+  .even-colunns{
+    grid-auto-flow: column;
+    grid-auto-columns: 1rem;
+  }
 }
