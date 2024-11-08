@@ -1,8 +1,51 @@
 header{
-  width: 100%;
+  width:100%;
+ 
+  
+  
 }
 
 
 .menu{
   display: flex;
+  align-items: center;
+  padding-block: 24px;
+  
+}
+  .logo{
+  margin-right: auto;  
+  }
+  .menu2{
+    display: flex;
+  }
+  .menu2 a{
+    
+    margin-right: 30px;
+    color: var(--text-color-secondary);
+    text-decoration: none;
+   
+ 
+   }
+   
+  button{
+    width: 144px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    
+    }
+    button:hover{
+      background: linear-gradient(to left,  #F7B733, #FC4A1A);
+      
+    }
+button a{
+    text-decoration: none; 
+    color: var(--background-color);  
+    }
+
+@media screen and (max-width: 727px) {
+  .menu2{
+    display: none;
+  }
 }

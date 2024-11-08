@@ -2,7 +2,43 @@
   margin: 0;
 padding: 0;
 box-sizing: border-box;
+background-color: var(--background-color);
+
+--font-family: "Inter", sans-serif;
+--h1:800 64px/120%;
+--h2:800 48px/120%;
+--h3: 800 32px/120%;
+--span:500 14px/100%;
+--Parágrafo:400 16px/160%;
+
+--h1-mobile: 800 40px/120%;
+--h2-mobile: 800 24px/120%;
+--h3-mobile: 800 20px/120%;
+--span-mobile: 500 14px/100%;
+--Parágrafo-mobile: 400 16px/160%;
+
+
+
+
+--brand-gradient:#FC4A1A;
+--brand-gradient2: #F7B733;
+--brand-color-primary: #F7B733;
+--brand-color-secondary: #FC4A1A;
+--background-color:#09090B ;
+--surface-color:#18181B ;
+--stroke-color:#27272A  ;
+--text-color-secondary:#A1A1AA  ;
+--text-color-primary:#F4F4F5 ;
+
+
+
 }
 html,body{
   height: 100%;
 }
+.contender{
+  max-width: calc(100% - 64px);
+ margin: 0 auto;
+}
+
+
