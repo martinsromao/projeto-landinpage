@@ -3,7 +3,10 @@
 padding: 0;
 box-sizing: border-box;
 background-color: var(--background-color);
-
+a{
+  text-decoration: none;
+  color: var(--background-color);
+}
 --font-family: "Inter", sans-serif;
 --h1:800 64px/120%;
 --h2:800 48px/120%;
@@ -16,10 +19,15 @@ background-color: var(--background-color);
 --h3-mobile: 800 20px/120%;
 --span-mobile: 500 14px/100%;
 --Parágrafo-mobile: 400 16px/160%;
+.flex{
+  display: flex;
+}
+.gap1{
+  gap: 1rem;
+}
 
 
-
-
+--brand-gradient3:linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
 --brand-gradient:#FC4A1A;
 --brand-gradient2: #F7B733;
 --brand-color-primary: #F7B733;
