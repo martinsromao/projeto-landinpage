@@ -39,7 +39,9 @@
   
     
 }
-
+.button:hover a{
+  color: inherit;
+}
 .btn[aria-label] {
   position: relative;
   &::before{

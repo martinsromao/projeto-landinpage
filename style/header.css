@@ -28,7 +28,12 @@ header{
  
    }
    
-  
+  .menu2 a:hover{
+    background: var(--brand-gradient3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
     
 
 
