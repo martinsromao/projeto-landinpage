@@ -3,7 +3,7 @@
 padding: 0;
 box-sizing: border-box;
 background-color: var(--background-color);
-a{
+& button a{
   text-decoration: none;
   color: var(--background-color);
 }
