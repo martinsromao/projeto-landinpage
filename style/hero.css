@@ -9,7 +9,10 @@
  }
 }
 .hero {
-  background: url(../assets/bg-hero.svg) no-repeat bottom center/contain;
+  background-image: url(../assets/bg-hero.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
