@@ -1,5 +1,5 @@
 .main-center{
-  width: 952px;
+  width: 100%;
  
  text-align: center;
 
@@ -35,6 +35,10 @@
     font-family: var(--font-family);
   }
 }
-.botao{
+.botao, .botao-mobile{
  justify-content: center;
+ 
+}
+.display2{
+  display: none;
 }

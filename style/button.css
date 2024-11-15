@@ -63,6 +63,6 @@
     
   }
 }
-.botao a{
+.botao a, .botao-mobile a{
   text-decoration: none;
 }

@@ -1,0 +1,34 @@
+@media screen and (max-width: 771px) {
+  .menu2{
+    display: none;
+  }
+  .btn
+  .contender{
+    max-width: calc(100% - 48px);
+  }
+  .menu{
+    padding-block: 1rem;
+  }
+  .even-colunns{
+    grid-auto-flow: column;
+    grid-auto-columns: 1rem;
+  }
+
+  .hero{
+   & h1{
+      font-size: 40px;
+    }
+    & h3{
+      font-size: 20px;
+    }
+    & img[src*="Music"]{
+      width: 206px;
+    }
+    & .display1{
+      display: none;
+    }
+    & .display2{
+      display: block;
+    }
+  }
+}
