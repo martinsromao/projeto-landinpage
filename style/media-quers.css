@@ -18,18 +18,18 @@
    & h1{
       font-size: 40px;
     }
-    & h3{
-      font-size: 20px;
-    }
     & img[src*="Music"]{
       width: 206px;
     }
-    & .display1{
+  }
+  h3{
+   font-size: 20px;
+    }
+    .display1{
       display: none;
     }
-    & .display2{
+     .display2{
       display: block;
     }
-  }
   
 }

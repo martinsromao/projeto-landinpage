@@ -6,3 +6,5 @@
 @import url(hero.css);
 @import url(media-quers.css);
 @import url(about.css);
+@import url(card.css);
+@import url(feature.css) (width >= 771px);

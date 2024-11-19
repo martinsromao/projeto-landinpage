@@ -2,3 +2,17 @@
   display: grid;
   gap: 1rem;
 }
+.grid{
+  display: grid;
+ 
+}
+.py-xl{
+  margin-block: 40px;
+}
+.pd-lr{
+  padding-inline: 32px;
+  
+}
+.pd-tb{
+  padding-block: 40px;
+}
