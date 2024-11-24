@@ -1,0 +1,128 @@
+.princing{
+  & header{
+    text-align: center;
+    & strong{
+      color: var(--brand-color-primary);
+
+    }
+    & h2{
+      font: var(--h2) var(--font-family);
+      color: var(--text-color-primary);
+
+    }
+    
+  }
+  & h3{
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+  & cards{
+    margin-top: 2rem;
+  }
+ .cards{
+    grid-template-columns: repeat(3, 33.33%);
+     grid-auto-flow: column; 
+  } 
+
+  
+  & .card p{
+    margin-top: .25rem;
+  }
+  & text-princing{
+    display: block;
+   font: 700 40px var(--font-family);
+   color: var(--text-color-primary);
+   padding-block: 1.5rem;
+   & small{
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+   }
+  }
+  & ul li{
+    list-style: none; 
+    color: var(--text-color-secondary);
+    background: url(../assets/icone/Check.svg) no-repeat;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  & ul + small{
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--text-color-secondary);
+  }
+  & .btn{
+    width: 100%;
+  }
+  .separetor{
+    height: 1px;
+    background: radial-gradient(var(--text-color-secondary), var(--surface-color) 70%);
+    margin-block: 2rem;
+  }
+
+  & .premium{
+     position: relative;
+     padding: 2px;
+      
+ 
+     &  .card{
+       padding-top: 72px;
+      
+       & > span  {
+        display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         padding: 12px 32px;
+         background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+         border-radius: 24px 0px 24px 0px;
+         font-family: var(--font-family);
+         font-style: normal;
+         font-weight: 600;
+         font-size: 12px;
+         line-height: 16px;
+         letter-spacing: 0.08em;
+         
+       }
+       
+
+
+     }
+     &::before{
+      content: '';
+      position: absolute;
+      background: var(--brand-gradient3);
+      inset: 0;
+      border-radius: 1.5rem;
+      z-index: -1;
+     
+     } 
+     
+   }
+ }
+
+  @media screen and (max-width : 771px) {
+   & header{
+      max-width:50rem;
+      margin-inline:auto;
+    }  
+   
+    & h2{
+      font-size: 1rem;
+     } 
+     
+    
+  }   
+  @media (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+        grid-auto-flow: row;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+      grid-auto-flow: row;
+        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
+}
