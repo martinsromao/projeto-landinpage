@@ -1,11 +1,11 @@
 .princing{
-  & header{
+   header{
     text-align: center;
-    & strong{
+     strong{
       color: var(--brand-color-primary);
 
     }
-    & h2{
+     h2{
       font: var(--h2) var(--font-family);
       color: var(--text-color-primary);
 
@@ -19,10 +19,7 @@
   & cards{
     margin-top: 2rem;
   }
- .cards{
-    grid-template-columns: repeat(3, 33.33%);
-     grid-auto-flow: column; 
-  } 
+  
 
   
   & .card p{
@@ -60,77 +57,148 @@
     background: radial-gradient(var(--text-color-secondary), var(--surface-color) 70%);
     margin-block: 2rem;
   }
-
-  & .premium{
-     position: relative;
-     padding: 2px;
-      
+  .premium{
+    position: relative;
  
-     &  .card{
-       padding-top: 72px;
-      
-       & > span  {
-        display: block;
-         position: absolute;
-         top: 0;
-         left: 0;
-         padding: 12px 32px;
-         background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
-         border-radius: 24px 0px 24px 0px;
-         font-family: var(--font-family);
-         font-style: normal;
-         font-weight: 600;
-         font-size: 12px;
-         line-height: 16px;
-         letter-spacing: 0.08em;
-         
-       }
-       
-
-
-     }
-     &::before{
-      content: '';
-      position: absolute;
-      background: var(--brand-gradient3);
-      inset: 0;
-      border-radius: 1.5rem;
-      z-index: -1;
+ padding: 2px;
+ 
+ 
+ .card{
+   
+    padding-top: 72px; 
+   
+   & > span  {
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 12px 32px;
+     background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+     border-radius: 24px 0px 24px 0px;
+     font-family: var(--font-family);
+     font-style: normal;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 16px;
+     letter-spacing: 0.08em;
      
-     } 
-     
-   } @media screen and (max-width: 961px){
-    .cards{
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-flow: dense;
+   }
+   
+   
+   
+ }
     
+     &::before{
+       height: 540px;
+       padding-top: 32px;
+       content: '';
+       position: absolute;
+       background: var(--brand-gradient3);
+       inset: 0;
+       border-radius: 1.5rem;
+       z-index: -1;
+       
+     } 
+ }
+  
+  
+ 
+      
     }
-     }
+     
     @media (max-width: 771px) {
-     .cards {
-         grid-template-columns:none;  
-         grid-auto-flow: row;
-     }
-  }
-  @media screen and(max-width: 420px){
-    .card{
-      width: 100%;
-      margin-inline: 24px;
+      .cards {
+        grid-template-columns:none;  
+        grid-auto-flow: row;
+      }
     }
-  } 
- 
- 
-  @media screen and (max-width : 771px) {
-   & header{
+    @media screen and(max-width: 420px){
+      .card{
+        width: 100%;
+        margin-inline: 24px;
+      }
+    } 
+    
+    
+    @media screen and (max-width : 771px) {
+      header{
       max-width:50rem;
       margin-inline:auto;
     }  
-   
-    & h2{
-      font-size: 1rem;
-     } 
-     
     
-  }   
- }
-
+    .princing{
+    header{
+      
+      
+      h2{
+        font: var(--h2-mobile) var(--font-family);
+        
+        
+      }
+      
+    }  }
+    
+  }
+  @media screen and (min-width: 772px) {
+   .cards{
+    padding-top: 50px;
+    grid-template-columns: repeat(3, 33.33%);
+     grid-auto-rows: 520px 540px 520px;
+    
+  } 
+  .premium{
+     position: relative;
+  top: -5%;
+  padding: 2px;
+  
+  
+  .card{
+    
+     padding-top: 72px; 
+    
+    & > span  {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 12px 32px;
+      background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+      border-radius: 24px 0px 24px 0px;
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.08em;
+      
+    }
+    
+    
+    
+  }
+     
+      &::before{
+        height: 540px;
+        padding-top: 32px;
+        content: '';
+        position: absolute;
+        background: var(--brand-gradient3);
+        inset: 0;
+        border-radius: 1.5rem;
+        z-index: -1;
+        
+      } 
+  }
+  @media screen and (max-width: 1125px){
+      .cards{
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense;
+        grid-auto-rows: auto;
+        
+      }
+      .premium{
+        top: 0.5%;
+      }
+    }
+}

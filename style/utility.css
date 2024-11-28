@@ -7,7 +7,7 @@
  
 }
 .py-xl{
-  margin-block: 40px;
+  padding-block: 40px;
 }
 .pd-lr{
   padding-left: 32px;
@@ -16,4 +16,8 @@
 }
 .pd-tb{
   padding-block: 40px;
+}
+.item-center{
+  
+  align-content: center;
 }
