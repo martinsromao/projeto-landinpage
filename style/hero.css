@@ -1,12 +1,11 @@
-.main-center{
+.main-center {
   width: 100%;
- 
- text-align: center;
 
- & img{
-  width: 412px;
-  
- }
+  text-align: center;
+
+  & img {
+    width: 412px;
+  }
 }
 .hero {
   background-image: url(../assets/bg-hero.svg);
@@ -18,35 +17,33 @@
   justify-content: center;
   align-items: flex-start; /* Alinha o conteúdo ao topo */
   height: 500px; /* Isso garante que o hero ocupe a altura total da tela */
-   /* Você pode ajustar o valor para mover o conteúdo mais para baixo */
-  }
-  .botao, .botao-mobile{
-    justify-content: center;
-    
-  }
-  .display2{
-    display: none;
-  }
-  
-   h1{
-    margin-top: 24px;
-    font-size: 64px;
-    font-weight: 600;
-    margin-bottom: 0;
-    padding-bottom: 16px;
-    font-family: var(--font-family);
-    color: var(--text-color-primary);
-    
-    
-  }
-  h3{
-     margin-top: 0;
-    font-size: 32px;
-    font-weight: 600;
-    color: var(--text-color-primary);
-    font-family: var(--font-family);
-  }
-  p{
-    color: var(--text-color-secondary);
-    font-family: var(--font-family);
-  }
+  /* Você pode ajustar o valor para mover o conteúdo mais para baixo */
+}
+.botao,
+.botao-mobile {
+  justify-content: center;
+}
+.display2 {
+  display: none;
+}
+
+h1 {
+  margin-top: 24px;
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+  font-family: var(--font-family);
+  color: var(--text-color-primary);
+}
+h3 {
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text-color-primary);
+  font-family: var(--font-family);
+}
+p {
+  color: var(--text-color-secondary);
+  font-family: var(--font-family);
+}

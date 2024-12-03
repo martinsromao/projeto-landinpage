@@ -1,74 +1,67 @@
-.about{
+.about {
   padding-bottom: 80px;
-background-color: var(--surface-color);
+  background-color: var(--surface-color);
 
-  & strong{
+  & strong {
     color: var(--brand-color-primary);
-    
   }
-  & h2{
+  & h2 {
     color: var(--text-color-primary);
     font-size: 48px;
     font-family: var(--font-family);
   }
-  & p{
+  & p {
     color: var(--text-color-secondary);
     font-family: var(--font-family);
   }
-  & .about-text{
+  & .about-text {
     width: 50%;
-   align-items: center;
-   
+    align-items: center;
   }
 
-  & .about-img{
+  & .about-img {
     background-image: url(../assets/App\ mockups.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 544px;
-    height:558px;
+    height: 558px;
     object-fit: cover;
-    
   }
 }
-.about-mobile{
+.about-mobile {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  .about-mobile{
+  .about-mobile {
     background-image: url(../assets/ilustração.svg);
-   display: block;
-   & img{
-    max-width: 332px;
-    max-height: 320px;
-    margin-left: calc(50% - 166px);
-   }
-
+    display: block;
+    & img {
+      max-width: 332px;
+      max-height: 320px;
+      margin-left: calc(50% - 166px);
+    }
   }
-   .about-text{
-    & strong{
+  .about-text {
+    & strong {
       font-size: 14px;
     }
-    & h2{
-      font-size:24px;
+    & h2 {
+      font-size: 24px;
     }
-  } 
-  .about{
+  }
+  .about {
     padding-bottom: 28px;
-    .about-text{
+    .about-text {
       width: 100%;
       display: block;
-      
     }
-    .about-img{
+    .about-img {
       display: none;
     }
   }
-  .hero{
+  .hero {
     background-image: none;
     background-color: var(--background-color);
     height: 300px;
-    
   }
-
- }
+}

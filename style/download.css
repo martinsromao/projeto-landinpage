@@ -1,0 +1,42 @@
+.download {
+  header{
+    strong{
+      color: var(--brand-color-primary);
+    }
+    h2{
+      font: var(--h2) var(--font-family);
+      color: var(--text-color-primary);
+    }
+  }
+.card{
+  position: relative;
+  padding:3rem 1.5rem 20rem;
+
+
+ 
+}
+  img[src*="rom"]{
+    width: 14.5rem;
+    position: absolute;
+    bottom: -2.4rem;
+    right: -2rem;
+    
+
+  }
+  .app-store{
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+@media screen and (min-width: 771px) {
+  .card{
+    padding: 8.5rem 5rem;
+
+    & > div:nth-child(1){
+      max-width: 40rem;
+    }
+  }
+  img[src*="rom"]{
+    width: 29.12rem;
+    bottom: -4.9rem;
+  }}
+}

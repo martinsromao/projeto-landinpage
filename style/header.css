@@ -1,39 +1,29 @@
-header{
-  width:100%;
- margin-bottom: 25px;
-  
-  
+header {
+  width: 100%;
+  margin-bottom: 25px;
 }
 
-
-.menu{
+.menu {
   display: flex;
   align-items: center;
   padding-block: 24px;
-   gap: 1rem;
+  gap: 1rem;
 }
-  .logo{
-  margin-right: auto;  
-  }
-  .menu2{
-    display: flex;
-   
-  }
-  .menu2 a{
-    
-    margin-right: 30px;
-    color: var(--text-color-secondary);
-    text-decoration: none;
-   
- 
-   }
-   
-  .menu2 a:hover{
-    background: var(--brand-gradient3);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-    
+.logo {
+  margin-right: auto;
+}
+.menu2 {
+  display: flex;
+}
+.menu2 a {
+  margin-right: 30px;
+  color: var(--text-color-secondary);
+  text-decoration: none;
+}
 
-
+.menu2 a:hover {
+  background: var(--brand-gradient3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

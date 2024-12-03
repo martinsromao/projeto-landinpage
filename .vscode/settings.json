@@ -1,6 +1,6 @@
 {
   "livePreview.httpHeaders": {
-
     "Accept-Ranges": "bytes"
-  }
+  },
+  "editor.formatOnSave": true
 }

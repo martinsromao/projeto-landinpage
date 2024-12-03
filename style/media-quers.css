@@ -1,35 +1,33 @@
 @media screen and (max-width: 771px) {
-  .menu2{
+  .menu2 {
     display: none;
   }
-  .btn
-  .contender{
+  .btn .contender {
     max-width: calc(100% - 48px);
   }
-  .menu{
+  .menu {
     padding-block: 1rem;
   }
-  .even-colunns{
+  .even-colunns {
     grid-auto-flow: column;
     grid-auto-columns: 1rem;
   }
 
-  .hero{
-   & h1{
+  .hero {
+    & h1 {
       font-size: 40px;
     }
-    & img[src*="Music"]{
+    & img[src*="Music"] {
       width: 206px;
     }
   }
-  h3{
-   font-size: 20px;
-    }
-    .display1{
-      display: none;
-    }
-     .display2{
-      display: block;
-    }
-  
+  h3 {
+    font-size: 20px;
+  }
+  .display1 {
+    display: none;
+  }
+  .display2 {
+    display: block;
+  }
 }

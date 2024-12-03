@@ -1,23 +1,23 @@
-.even-colunns{
+.even-colunns {
   display: grid;
   gap: 1rem;
 }
-.grid{
+.grid {
   display: grid;
- 
 }
-.py-xl{
+.py-lg {
+  padding-block: 1.5rem;
+}
+.py-xl {
   padding-block: 40px;
 }
-.pd-lr{
+.pd-lr {
   padding-left: 32px;
   padding-right: 32px;
-  
 }
-.pd-tb{
+.pd-tb {
   padding-block: 40px;
 }
-.item-center{
-  
-  align-content: center;
+.item-center {
+  align-items: center;
 }
