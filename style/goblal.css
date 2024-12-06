@@ -36,13 +36,19 @@
   --stroke-color: #27272a;
   --text-color-secondary: #a1a1aa;
   --text-color-primary: #f4f4f5;
+  ul [role="list"] {
+    list-style: none;
+  }
 }
 html,
 body {
-  overflow-x: hidden;
   height: 100%;
 }
 .contender {
   max-width: calc(100% - 64px);
   margin: 0 auto;
+}
+
+.card a {
+  text-decoration: none;
 }

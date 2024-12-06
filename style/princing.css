@@ -30,6 +30,7 @@
       color: var(--text-color-secondary);
     }
   }
+
   & ul li {
     list-style: none;
     color: var(--text-color-secondary);
@@ -37,6 +38,7 @@
     padding-left: 2rem;
     padding-bottom: 1rem;
   }
+
   & ul + small {
     display: block;
     margin-top: 1.5rem;
@@ -44,8 +46,7 @@
     color: var(--text-color-secondary);
   }
   & .btn {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
   }
   .separetor {
     height: 1px;
@@ -61,7 +62,7 @@
     padding: 2px;
 
     .card {
-      padding-top: 72px;
+      padding-top: 4.25rem;
 
       & > span {
         display: block;
@@ -81,11 +82,13 @@
     }
 
     &::before {
-      height: 540px;
-      padding-top: 32px;
       content: "";
+      background: linear-gradient(
+        90deg,
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+      );
       position: absolute;
-      background: var(--brand-gradient3);
       inset: 0;
       border-radius: 1.5rem;
       z-index: -1;
@@ -99,7 +102,6 @@
     grid-auto-flow: row;
   }
 }
-
 
 @media screen and (max-width: 771px) {
   header {

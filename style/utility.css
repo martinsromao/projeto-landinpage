@@ -1,4 +1,5 @@
 .even-colunns {
+  grid-auto-flow: column;
   display: grid;
   gap: 1rem;
 }
@@ -11,9 +12,8 @@
 .py-xl {
   padding-block: 40px;
 }
-.pd-lr {
-  padding-left: 32px;
-  padding-right: 32px;
+.px-lg {
+  padding-inline: 32px;
 }
 .pd-tb {
   padding-block: 40px;
