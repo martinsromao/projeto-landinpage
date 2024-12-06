@@ -27,10 +27,8 @@
     height: 558px;
     object-fit: cover;
   }
-}
-.about-mobile {
-  display: none;
-}
+
+
 @media screen and (max-width: 768px) {
   .about-mobile {
     background-image: url(../assets/ilustração.svg);
@@ -49,7 +47,7 @@
       font-size: 24px;
     }
   }
-  .about {
+  
     padding-bottom: 28px;
     .about-text {
       width: 100%;
@@ -58,10 +56,14 @@
     .about-img {
       display: none;
     }
-  }
+  
   .hero {
     background-image: none;
     background-color: var(--background-color);
     height: 300px;
   }
+}
+}
+.about-mobile {
+  display: none;
 }

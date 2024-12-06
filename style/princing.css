@@ -46,7 +46,7 @@
     color: var(--text-color-secondary);
   }
   & .btn {
-    width: 100%;
+    width: 80%;
   }
   .separetor {
     height: 1px;
@@ -94,7 +94,7 @@
       z-index: -1;
     }
   }
-}
+
 
 @media (max-width: 771px) {
   .cards {
@@ -109,13 +109,13 @@
     margin-inline: auto;
   }
 
-  .princing {
+  c
     header {
       h2 {
         font: var(--h2-mobile) var(--font-family);
       }
     }
-  }
+  
 }
 @media screen and (min-width: 772px) {
   .cards {
@@ -169,4 +169,5 @@
       top: 0.5%;
     }
   }
+}
 }
